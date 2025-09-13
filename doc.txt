@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam incidunt rem aliquam nobis numquam, rerum, voluptas dolore aliquid maiores expedita voluptates architecto quasi quaerat blanditiis provident obcaecati quisquam minus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed autem laudantium adipisci illo rem deleniti labore harum! Accusantium dolorem nisi repellendus. Ratione, id ipsa sed animi voluptatem delectus natus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam incidunt rem aliquam nobis numquam, rerum, voluptas dolore aliquid maiores expedita voluptates architecto quasi quaerat blanditiis provident obcaecati quisquam minus?</p>
+
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil veniam ad odio velit aspernatur molestias unde minus ipsam assumenda! Iure mollitia provident rem ab magnam amet fugit vitae deserunt!</p></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed autem laudantium adipisci illo rem deleniti labore harum! Accusantium dolorem nisi repellendus. Ratione, id ipsa sed animi voluptatem delectus natus.</p> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam incidunt rem aliquam nobis numquam, rerum, voluptas dolore aliquid maiores expedita voluptates architecto quasi quaerat blanditiis provident obcaecati quisquam minus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed autem laudantium adipisci illo rem deleniti labore harum! Accusantium dolorem nisi repellendus. Ratione, id ipsa sed animi voluptatem delectus natus.</p>
+        
+    </div>
+    <!-- <span>sandeep</span> -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eaque commodi! Id accusantium, repellat ducimus minus hic laudantium eveniet, corrupti pariatur iure consequuntur repellendus temporibus ad fugit modi sequi doloremque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eaque commodi! Id accusantium, repellat ducimus minus hic laudantium eveniet, corrupti pariatur iure consequuntur repellendus temporibus ad fugit modi sequi doloremque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eaque commodi! Id accusantium, repellat ducimus minus hic laudantium eveniet, corrupti pariatur iure consequuntur repellendus temporibus ad fugit modi sequi doloremque?</p>
+</body>
+</html>
+
+
+/* .container>p{
+
+    background-color: red;
+} */
+/* .container p{
+
+    background-color: red;
+} */
+
+/* .container>div>p{
+
+    background-color: red;
+} */
+
+.container+p{
+    background-color: red;
+}
