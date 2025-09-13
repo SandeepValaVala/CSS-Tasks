@@ -1,4 +1,6 @@
-
+body{
+    margin: 0;
+}
 .main-container{
     width: 1055px;
     height: 580px;
@@ -8,7 +10,7 @@
     top: 10%;
     border-radius: 10px;
     /* background-color: rgb(35, 202, 144); */
-    /* margin-bottom: 50px; */
+    margin: 50px;
 }
 
 .first-image-container{
